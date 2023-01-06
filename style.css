@@ -123,7 +123,7 @@ body {
     transition: 0.3s;
 }
 .donate-item:nth-child(2){
-    background-color: rgba(255, 99, 71, 0.37);
+    background-color: #FFEEEE;
     color: tomato;
     border: 2px solid tomato;
 }
@@ -168,9 +168,28 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.donate-plane-one{
+.donate-plane-one {
     width: 360px;
     height: 352px;
     padding: 50px 22px;
     background-color: #EDF5F6;
+    border-radius: 10px 70px 10px 70px;
+    box-shadow: 0px 0px 24px -5px #636194;
+    transition: 0.5s;
+}
+.donate-plane-one:nth-child(2){
+    background-color: #FFEEEE;
+}
+.donate-plane-one:nth-child(3){
+    background-color: #FFF4D6;
+}
+.donate-plane-one:hover{
+    border-radius: 70px 10px 70px 10px;
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.donate-plane-one-title{
+    margin-bottom: 16px;
+    margin-top: 30px;
+    font-size: 24px;
 }
